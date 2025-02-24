@@ -30,15 +30,6 @@ huggingface-cli login --token YOUR_HF_TOKEN
 ```
 
 ---
-## Files in This Repository
-
-| File | Description |
-|------------|----------------------------------------------|
-| `data_generation.py` | Generates synthetic dataset using LLaMA-405B. |
-| `finetune_llama.py` | Fine-tunes LLaMA-2-7B on the dataset. |
-| `knowledge_distillation.py` | Transfers knowledge to Gemma-2B via KL loss. |
-
----
 ## Dataset Details
 The dataset consists of **Question-Answer (QA) pairs** generated synthetically. These are stored in:
 ```sh
