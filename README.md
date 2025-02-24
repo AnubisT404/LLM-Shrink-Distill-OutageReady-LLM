@@ -64,17 +64,17 @@ Each row contains:
 ---
 ## Usage
 
-### 1️⃣ **Generate Synthetic Data**
+### **Generate Synthetic Data**
 ```sh
 python data_generation.py
 ```
 
-### 2️⃣ **Fine-tune LLaMA-2-7B**
+### **Fine-tune LLaMA-2-7B**
 ```sh
 python finetune_llama.py
 ```
 
-### 3️⃣ **Train the Student Model (Distillation)**
+### **Train the Student Model (Distillation)**
 ```sh
 python knowledge_distillation.py
 ```
